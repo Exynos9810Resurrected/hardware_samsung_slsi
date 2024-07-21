@@ -33,7 +33,6 @@ cc_binary {
     ],
 
     // JSON file handling from chinook
-    static_libs: ["libhubutilcommon"],
     shared_libs: [
         "liblog",
         "libstagefright_foundation",
